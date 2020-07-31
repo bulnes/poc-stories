@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editação do Web Story</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">CMS</a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">        
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Pesquisar por...">
+          </div>
+          <button type="submit" class="btn btn-default">Buscar</button>
+        </form>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div class="panel panel-default">
+          <div class="panel-heading clearfix">
+            Edição
+            
+            <a href="https://makestories.io/" type="button" class="btn btn-default pull-right" target="_blank">
+              <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Make Stories
+            </a>
+            <a href="upload.html" type="button" class="btn btn-default pull-right">
+              <span class="glyphicon glyphicon-upload" aria-hidden="true"></span> Upload
+            </a>
+            <a href="index.html" type="button" class="btn btn-default pull-right">
+              <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+            </a>
+          </div>
+
+          <div class="panel-body">
+
+            <div class="col-xs-8">
+
+              <form action="">
+                <div class="form-group">
+                  <label for="">URL:</label>
+                  <p class="form-control-static">
+                    <a href="">https://www.r7.com/meu-stories</a>
+                  </p>
+                </div>
+
+                <div class="form-group">
+                  <label for="">Validação</label>
+                  <div class="alert alert-danger" role="alert">
+                    Itens com problema:
+                    <ul>
+                      <li>Ausência do título</li>
+                      <li>Ausência do autor</li>
+                      <li>Ausência do pôster</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="">Upload para atualizar o Story</label>
+                  <div class="jumbotron">
+                    <button type="button" class="btn btn-primary btn-block">
+                      <span class="glyphicon glyphicon-upload" aria-hidden="true"></span> Upload
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+
+            <div class="col-xs-4">
+              <div class="panel panel-default"">
+                <div class="panel-heading">Publicação</div>
+                <div class="panel-body">
+                  <button type="button" class="btn btn-default btn-block">Publicar</button>
+                  <button type="button" class="btn btn-default btn-block">Salvar rascunho</button>
+                  <button type="button" class="btn btn-default btn-block">Visualizar</button>
+                  <button type="button" class="btn btn-default btn-block">Agendar</button>
+                  <button type="button" class="btn btn-default btn-block">Arquivar</button>
+                  <button type="button" class="btn btn-default btn-block">Excluir</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
